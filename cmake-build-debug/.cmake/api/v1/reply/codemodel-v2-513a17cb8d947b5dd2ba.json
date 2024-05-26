@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/glfw-3.4",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.glfw-3.4-Debug-5e1a57258200fa6605b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/glfw-3.4",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/glfw-3.4/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.glfw-3.4.src-Debug-da4f8ca665975d293039.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/glfw-3.4/src",
+					"targetIndexes" : 
+					[
+						0,
+						3
+					]
+				},
+				{
+					"build" : "src/glfw-3.4/docs",
+					"jsonFile" : "directory-src.glfw-3.4.docs-Debug-9b3e3756be82f9f314c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "src/glfw-3.4/docs"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project_SO",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@3efcc22b76b08db30b54",
+					"jsonFile" : "target-glfw-Debug-b322b5e2ecc5ab045b60.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "project_SO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_SO-Debug-9a617ad8fad93e366d76.json",
+					"name" : "project_SO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@c8845bd9d56dfe203345",
+					"jsonFile" : "target-uninstall-Debug-3f5ba8301d6c4066a53a.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@3efcc22b76b08db30b54",
+					"jsonFile" : "target-update_mappings-Debug-bd4e9d408030a617598a.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Adrian/Desktop/uni/Anul 3 Sem. 2/SO_lab/project_SO/cmake-build-debug",
+		"source" : "C:/Users/Adrian/Desktop/uni/Anul 3 Sem. 2/SO_lab/project_SO"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
